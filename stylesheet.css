@@ -163,7 +163,7 @@
     border-top: 28.8675px solid #a9aaad;
 }
 
-
+/* Lines of symmetry for the shapes. Each line is named for the shape it occupies */
 #TriangleLine{
     position: absolute;
     width: 9.3%;
