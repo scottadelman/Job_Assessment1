@@ -1,0 +1,161 @@
+/* Triangle up */
+#triangle-up {
+   
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 65px solid #6d7075;
+    position: relative;
+}
+
+
+#triangle-up:after {
+    content: "";
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 65px solid #a9aaad;
+    position: absolute;
+    left: -35px;
+    scale: 83%;
+    top: 2px;
+}
+
+/* Square rotated 45 degrees */
+#square {
+    width: 50px;
+    height: 50px;
+    background: #a9aaad;
+    transform: rotate(45deg); 
+    border: 3px solid #6d7075;
+}
+
+
+/* Pentagon */
+
+#pentagon {
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #6d7075 transparent;
+    transform: rotate(180deg);
+    top: -22px;
+    scale: 85%
+  }
+  #pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #6d7075;
+    
+    
+  }
+
+
+/* Hexagon */
+#hexagon {
+    width: 100px;
+    height: 57.735px;
+    background:#6d7075;
+    position: relative;
+    scale: 70%;
+    top: 1px;
+    left: -7px;
+}
+#hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid #6d7075;
+}
+#hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid #6d7075;
+}
+
+#container{
+   display: flex;
+   padding-top: 50px;
+   justify-content: center;
+   gap: 50px;
+   background-color: #35b6ef;
+   padding-bottom: 60px;
+   background-size: 50%;
+}
+
+
+#pentagon2 {
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #a9aaad transparent;
+    transform: rotate(180deg);
+    top: -132px;
+    right: -328.5px;
+    scale: 77%
+  }
+  #pentagon2:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+        border-color: transparent transparent #a9aaad;
+
+    
+  }
+
+
+  #hexagon2 {
+    width: 100px;
+    height: 57.735px;
+    background:#a9aaad;
+    position: relative;
+    scale: 63%;
+    top: -173.5px;
+    right: -461.5px;
+}
+#hexagon2::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid #a9aaad;
+}
+#hexagon2::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid #a9aaad;
+}
