@@ -26,6 +26,7 @@
     background: #a9aaad;
     transform: rotate(45deg); 
     border: 3px solid #6d7075;
+    
 }
 
 
@@ -66,6 +67,7 @@
     scale: 70%;
     top: 1px;
     left: -7px;
+    transform: rotate(30deg);
 }
 #hexagon::before {
     content: "";
@@ -136,6 +138,7 @@
     scale: 63%;
     top: -173.5px;
     right: -461.5px;
+    transform: rotate(30deg);
 }
 #hexagon2::before {
     content: "";
@@ -159,3 +162,53 @@
     border-right: 50px solid transparent;
     border-top: 28.8675px solid #a9aaad;
 }
+
+
+#TriangleLine{
+    position: absolute;
+    width: 9.3%;
+    height: 4px;
+    margin: 25px auto;
+    border-radius: 2px;
+    background-color: #f6b046;
+    transform: rotate(90deg);
+    top: 64px;
+    right: 509.3px;
+  }
+
+
+  #SquareLine{
+    position: absolute;
+    width: 11%;
+    height: 4px;
+    margin: 25px auto;
+    border-radius: 2px;
+    background-color: #f6b046;
+    top: 59.5px;
+    right: 390.5px;
+  }
+
+
+  #PentagonLine{
+    position: absolute;
+    width: 10.5%;
+    height: 4px;
+    margin: 25px auto;
+    border-radius: 2px;
+    background-color: #f6b046;
+    transform: rotate(90deg);
+    top: 62px;
+    right: 270px;
+  }
+
+
+  #HexagonLine{
+    position: absolute;
+    width: 11.5%;
+    height: 4px;
+    margin: 25px auto;
+    border-radius: 2px;
+    background-color: #f6b046;
+    top: 62px;
+    right: 128.5px;
+  }
